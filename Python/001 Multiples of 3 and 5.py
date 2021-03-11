@@ -7,20 +7,13 @@ Jumlah dari bilangan-bilangan tersebut adalah 23.
 
 Tentukanlah jumlah dari semua bilangan kelipatan 3 atau 5 yang lebih kecil daripada 1000.
 """
-kelipatan3 = []
-kelipatan5 = []
-hasil = 0
-for a in range(1, 1000):
-    if (a % 3 == 0):
-        kelipatan3.append(a)
-for b in range(1, 1000):
-    if (b % 5 == 0):
-        kelipatan5.append(b)
-gabungan = kelipatan3 + kelipatan5
-listfinal = set(gabungan)
-for x in listfinal:
-    hasil += x
-print(hasil)
+#normal
+jumlah = 0
+for i in range(1000):
+    if i % 3 == 0 or i % 5 == 0:
+        jumlah += i
+print(jumlah)
 
-sum_number = sum([n for n in range(1000) if n%3 == 0 or n%5 == 0])
-print(sum_number)
+#oneliner
+total = sum([n for n in range(1000) if n%3 == 0 or n%5 == 0])
+print(total)
