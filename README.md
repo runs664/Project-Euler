@@ -3,7 +3,7 @@
 <p style='text-align: justify;'><b>Project Euler</b> (named after <i>Leonhard Euler</i>) is a website dedicated to a series of computational problems intended to be solved with computer programs. The project attracts adults and students interested in mathematics and computer programming. Since its creation in 2001 by Colin Hughes, Project Euler has gained notability and popularity worldwide. It includes over 700 problems, with a new one added once every one or two weeks. Problems are of varying difficulty, but each is solvable in less than a minute of CPU time using an efficient algorithm on a modestly powered computer. As of 5 April 2020, Project Euler has more than 1,000,000 users, from all over the world, who have solved at least one problem.<p>
 
 <p align="center">
-  <img src="https://projecteuler.net/images/clipart/euler_portrait.png" alt="p">
+  <img src="https://projecteuler.net/images/clipart/euler_portrait.png" alt="Leonhard Euler">
 </p>
 <p style='text-align: justify;'>Project Euler will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.</p>
 
